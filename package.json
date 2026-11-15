@@ -1,0 +1,35 @@
+{
+  "name": "sybilshield-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SybilShield Local \u2014 100% Air-Gapped Web3 Multi-Wallet Anti-Sybil Graph Auditor & Randomized Sub-Account Distributor",
+  "bin": "dist/bundle.cjs",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "test": "vitest run",
+    "bundle": "esbuild src/main.ts --bundle --platform=node --target=node20 --format=cjs --outfile=dist/bundle.cjs --minify",
+    "build:all": "npm run bundle && npx @yao-pkg/pkg ."
+  },
+  "pkg": {
+    "targets": [
+      "node20-win-x64",
+      "node20-macos-arm64",
+      "node20-macos-x64",
+      "node20-linux-x64"
+    ],
+    "outputPath": "release"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.5.1",
+    "fastify": "^4.28.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@yao-pkg/pkg": "^5.11.5",
+    "esbuild": "^0.21.5",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+release/
+SybilShield_Output/
+private_key.pem
+batch_*.txt
+.DS_Store
