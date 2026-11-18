@@ -1,9 +1,16 @@
-# SybilShield Local — 100% Air-Gapped Web3 Multi-Wallet Anti-Sybil Auditor
+# 🛡️ SybilShield Local
+**100% Air-Gapped On-Chain Wallet Clustering, Airdrop Sybil Risk & Address Hygiene Auditor.**
 
-> **Unlock Lifetime Pro License (990 Telegram Stars, One-Time Purchase):** [Buy Instantly on Telegram Store](https://t.me/Userstudiobot/Store) — Instant offline Ed25519 license key delivery via [@Userstudiobot](https://t.me/Userstudiobot).
+### 🛒 Buy Lifetime License (One-Time Purchase · No Subscription)
+* **Telegram Mini App Store (Instant Auto-Delivery):** [https://t.me/Userstudiobot/Store](https://t.me/Userstudiobot/Store)
+* **Supported Payments:** Telegram Stars (`990 Stars`) & TON USDT (`$19.99 USDT`)
+* **Direct Support & Manual USDT Activation:** [@Userstudiobot](https://t.me/Userstudiobot)
 
-Audit up to 10,000 EVM/Solana wallet addresses for funding tree clusters, CEX deposit address collisions, and temporal script bursts **100% offline on your machine**.
+| Edition | Monthly Fee | Wallets Audited | Offline Ed25519 Activation |
+| :--- | :---: | :---: | :---: |
+| **Free Preview** | $0 | Sample preview batch | Not required |
+| **Lifetime License** | **$19.99 (Once)** | **Unlimited wallet clusters (10,000+)** | **Included (100% offline)** |
 
-- **Zero Address Leakage**: Never paste your studio wallet list into a web-based checker that logs your IP and clusters.
-- **CEX Sub-Account & Amount Jitter Planner**: Generates randomized funding amounts and time delays to prevent graph correlation.
-- **Ed25519 Offline Licensing**: Instant activation via `SS1.xxx` keys.
+### ✨ Key Features & Quick Start
+* **Zero-Leak Address Auditing:** Inspects EVM/Solana funding trees, CEX deposit overlaps, and temporal bursts locally with zero RPC/API tracking.
+* **Run:** Download the binary from [Releases](https://github.com/bubu629/sybilshield/releases), run it locally, and unlock permanently via [User Studio Store](https://t.me/Userstudiobot/Store).
