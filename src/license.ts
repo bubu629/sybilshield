@@ -14,7 +14,7 @@ export interface LicensePayload {
 }
 
 export let EMBEDDED_PUBLIC_KEY = `-----BEGIN PUBLIC KEY-----
-MCowBQYDK2VwAyEAJw6xzxfF9Wjcc4A+Ob8Zy1sKiV4KXi/bqQVdLuZSBFo=
+MCowBQYDK2VwAyEAjRfipO5f8zBIxFY3ts40Z7Zj8SogCoMztww+jDgZsDw=
 -----END PUBLIC KEY-----`;
 
 const LICENSE_FILE = path.join(os.homedir(), '.sybilshield', 'license.key');
