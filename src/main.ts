@@ -58,7 +58,7 @@ app.post('/api/audit', async (req, reply) => {
   if (edges.length > activeLicense.max_wallets) {
     return reply.status(403).send({
       ok: false,
-      error: `[${activeLicense.tier} Limit] Input has ${edges.length} wallets, but Community mode only audits up to ${activeLicense.max_wallets} wallets. Activate an SS1.xxx license key to unlock up to 10,000 wallets.`
+      error: `[${activeLicense.tier} Limit] Input has ${edges.length} wallets, but Community mode only audits up to ${activeLicense.max_wallets} wallets. Activate an SS1.xxx license key to unlock up to 10,000 wallets. Get a key at https://t.me/Userstudiobot/Store`
     });
   }
 
@@ -129,7 +129,7 @@ app.get('/', async (_req, reply) => {
         <h3 style="margin-top:0;">2. Offline License Key (SS1.xxx)</h3>
         <label>Paste SS1.xxx Key (Community Limit: 3 Wallets | Pro: 10,000 Wallets)</label>
         <input type="text" id="licenseKey" placeholder="SS1.eyJsaWNlbnNlX2lk..." />
-        <button style="background:#059669;" onclick="activateKey()">Verify & Save Offline License</button>
+        <button style="background:#059669;" onclick="activateKey()">Verify & Save Offline License</button> <a href="https://t.me/Userstudiobot/Store" target="_blank" style="display:inline-block;margin-left:8px;padding:8px 14px;background:#2481cc;color:#fff;text-decoration:none;border-radius:6px;font-weight:600;font-size:13px;">Buy License Key ↗</a>
         <h3 style="margin-top:20px;">3. Local Cluster Audit Output</h3>
         <pre id="outputLog">Ready. Default sample has 4 wallets (triggers Community 3-wallet limit until activated).</pre>
       </div>
